@@ -136,9 +136,40 @@ header{
 }
 
 @media (max-width: 576px) {
+
+header{
+	width: 100%;
+}
+
 .nav__links{
 	display: none;	
 }
+
+.welcome_screen{
+	width: 100%;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.grid{
+	margin-top: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	grid-template-columns: repeat(1,1fr);
+	grid-gap: none;
+	width: 100%;
+}
+
+.grid > article img{
+	width: 100%;
+}
+
+
 
 }
 
