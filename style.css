@@ -136,9 +136,9 @@ header{
 }
 
 @media (max-width: 576px) {
-	.nav__links{
-		display: none;
-	}
+.nav__links{
+	display: none;	
+}
 
 }
 
